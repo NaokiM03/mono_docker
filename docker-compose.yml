@@ -4,7 +4,8 @@ services:
     build: .
     container_name: mono_docker
     volumes:
-      - ./app:/app
+      - ./app:/home/app
+      - ./example:/home/example
     networks:
       - default
     stdin_open: true

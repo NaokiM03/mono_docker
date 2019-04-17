@@ -8,4 +8,4 @@ RUN apt-get update -qq\
 	build-essential \
 	curl file sudo
 
-WORKDIR /app
+WORKDIR /home/app
